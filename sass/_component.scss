@@ -1,0 +1,49 @@
+nav {
+  display: flex;
+  padding: 2% 6%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#header-img {
+  width: 350px;
+  margin-left: -160px;
+}
+
+.nav-link {
+  flex: 1;
+  text-align: right;
+}
+.nav-link ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 8px 12px;
+  position: relative;
+}
+.nav-link ul li a {
+  color: $color-white;
+  text-decoration: none;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.text-box {
+  width: 90%;
+  color: $color-white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.text-box h1 {
+  font-size: 62px;
+}
+.change {
+  color: $color-primary;
+}
+.text-box p {
+  margin: 10px 0 40px;
+  font-size: 30px;
+  color: $color-primary;
+  font-weight: 700;
+}

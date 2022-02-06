@@ -1,0 +1,13 @@
+// COLORS
+$color-primary: #ff3f00;
+$color-white: #fff;
+$color-black: #000;
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}

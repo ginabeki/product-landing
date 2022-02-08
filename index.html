@@ -3,35 +3,68 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="About my website" />
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;1,200;1,400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;1,200;1,400&display=swap"
+      rel="stylesheet"
+    />
     <title>Product Landing Page</title>
   </head>
   <body>
-    
-    <section>
-      <header id="header">
+    <!-- <div class="nav-bar">
+        <section class="one"></section>
+        <section class="two"></section>
+       </div> -->
+    <header id="header">
+      <!-- <section id="header"> -->
+      <!-- <div class="logo"> -->
+
+      <!-- </div> -->
       <nav id="nav-bar">
-        <a href=""><img id="header-img" src="https://i.postimg.cc/7YM3KFbX/autofix.png" alt="logo"></a>
         <div class="nav-link">
+          <a href="index.html">
+            <img
+              id="header-img"
+              src="https://i.postimg.cc/rs2hCYQb/Untitled-1.png"
+              alt="logo"
+            />
+          </a>
+
+          
           <ul>
-            <li><a href="">Features</a></li>
-            <li><a href="">Video</a></li>
-            <li><a href="">Pricing</a></li>
+            <li><a href="" class="btn">Features</a></li>
+            <li><a href="" class="btn">Video</a></li>
+            <li><a href="" class="btn">Pricing</a></li>
           </ul>
         </div>
       </nav>
-      <header>
-        <div class="text-box">
-          <h1>THE WORLD'S <span class="change">GREATEST</span></h1>
-          <p>auto fix</p>
-          <form id="form">
-            <input name="email" type="email" id="email" placeholder="Enter your email address" required/>
-            <input id="submit" type="submit" value="Subscribe" class="btn"/>
-          </form>
-        </div>
-    </section>
+
+      <div class="text-box">
+        <h1>THE WORLD'S <span class="change">GREATEST</span></h1>
+        <p>auto fix</p>
+      </div>
+
+      <form id="form" action="./">
+        <input
+          type="email"
+          id="email"
+          placeholder="Enter email"
+          name="email"
+          required
+        />
+
+        <button type="submit" id="submit" class="btn--secondary">
+          Subscribe
+        </button>
+      </form>
+    </header>
+    <!-- Video section -->
+    <!-- <section id="vid">
+      <h1>Video</h1>
+      <iframe id="Video" src="https://www.youtube.com/watch?v=ZQvfHyfgBtA" frameborder="0" allowfullscreen></iframe>
+    </section> -->
   </body>
 </html>

@@ -14,57 +14,155 @@
     <title>Product Landing Page</title>
   </head>
   <body>
-    <!-- <div class="nav-bar">
-        <section class="one"></section>
-        <section class="two"></section>
-       </div> -->
     <header id="header">
-      <!-- <section id="header"> -->
-      <!-- <div class="logo"> -->
+      <div class="nav-container">
+        <a class="nav-logo" href="index.html">
+          <img
+            id="header-img"
+            src="https://i.postimg.cc/rs2hCYQb/Untitled-1.png"
+            alt="logo"
+          />
+        </a>
 
-      <!-- </div> -->
-      <nav id="nav-bar">
-        <div class="nav-link">
-          <a href="index.html">
-            <img
-              id="header-img"
-              src="https://i.postimg.cc/rs2hCYQb/Untitled-1.png"
-              alt="logo"
-            />
-          </a>
-
-          
-          <ul>
-            <li><a href="" class="btn">Features</a></li>
-            <li><a href="" class="btn">Video</a></li>
-            <li><a href="" class="btn">Pricing</a></li>
-          </ul>
-        </div>
-      </nav>
+        <nav id="nav-bar">
+          <a href="#features" class="nav-link btn">Features</a>
+          <a href="#video" class="nav-link btn">Video</a>
+          <a href="#pricing" class="nav-link btn">Pricing</a>
+        </nav>
+      </div>
 
       <div class="text-box">
         <h1>THE WORLD'S <span class="change">GREATEST</span></h1>
         <p>auto fix</p>
+
+        <form id="form" action="./">
+          <input
+            type="email"
+            id="email"
+            placeholder="Enter email"
+            name="email"
+            required
+          />
+
+          <button type="submit" id="submit" class="btn--secondary">
+            Subscribe
+          </button>
+        </form>
       </div>
-
-      <form id="form" action="./">
-        <input
-          type="email"
-          id="email"
-          placeholder="Enter email"
-          name="email"
-          required
-        />
-
-        <button type="submit" id="submit" class="btn--secondary">
-          Subscribe
-        </button>
-      </form>
     </header>
-    <!-- Video section -->
-    <!-- <section id="vid">
-      <h1>Video</h1>
-      <iframe id="Video" src="https://www.youtube.com/watch?v=ZQvfHyfgBtA" frameborder="0" allowfullscreen></iframe>
-    </section> -->
+
+    <section>
+      <div class="content">
+        <h2>Why we are best in town</h2>
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s, when an unknown printer took a galley of type and
+          scrambled it to make a type specimen book.
+        </p>
+      </div>
+      <h3 id="features">Features</h3>
+      <div class="card-container">
+        <figure class="card">
+          <img
+            src="https://i.postimg.cc/SNFKpNzb/img-1.jpg"
+            alt="photo 1"
+            class="images-photo"
+          />
+          <div class="container">
+            <h4><b>Auto parts</b></h4>
+            <p>
+              All the fixing available at an affordable price.Lorem Ipsum is
+              simply dummy text of the printing and typesetting industry
+            </p>
+          </div>
+        </figure>
+
+        <figure class="card">
+          <img
+            src="https://i.postimg.cc/N0MsxKZm/img-2.jpg"
+            alt="photo 2"
+            class="images-photo"
+          />
+          <div class="container">
+            <h4><b>Auto parts</b></h4>
+            <p>
+              All the fixing available at an affordable price. Lorem Ipsum is
+              simply dummy text of the printing and typesetting industry
+            </p>
+          </div>
+        </figure>
+
+        <figure class="card">
+          <img
+            src="https://i.postimg.cc/kXRsHwPg/img-4.jpg"
+            alt="photo 3"
+            class="images-photo"
+          />
+          <div class="container">
+            <h4><b>Auto parts</b></h4>
+            <p>
+              All the fixing available at an affordable price. Lorem Ipsum is
+              simply dummy text of the printing and typesetting industry
+            </p>
+          </div>
+        </figure>
+      </div>
+    </section>
+
+    <section>
+      <div class="video-section">
+        <h3 id="video">Video</h3>
+        <embed
+          id="vid"
+          width="100%"
+          height="600"
+          src="https://www.youtube.com/embed/VqGy6WQ-mGI"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        />
+      </div>
+    </section>
+
+    <section>
+      <h3 id="pricing">Pricing</h3>
+      <div class="price-container">
+        <figure class="product-card">
+          <h4>Basic</h4>
+          <p class="price">$150</p>
+          <p class="tag">
+            Some text about the services offered. All the fixing available at an
+            affordable price. Lorem Ipsum is simply dummy text of the printing
+            and typesetting industry
+          </p>
+          <p><button>Add to Cart</button></p>
+        </figure>
+        <figure class="product-card">
+          <h4>Standard</h4>
+          <p class="price">$250</p>
+          <p class="tag">
+            Some text about the services offered. All the fixing available at an
+            affordable price. Lorem Ipsum is simply dummy text of the printing
+            and typesetting industry
+          </p>
+          <p><button>Add to Cart</button></p>
+        </figure>
+        <figure class="product-card">
+          <h4>Premium</h4>
+          <p class="price">$450</p>
+          <p class="tag">
+            Some text about the services offered. All the fixing available at an
+            affordable price. Lorem Ipsum is simply dummy text of the printing
+            and typesetting industry
+          </p>
+          <p><button>Add to Cart</button></p>
+        </figure>
+      </div>
+    </section>
+    <footer>
+      <div id="footer">&copy; Made with &hearts; by Gina Beki</div>
+    </footer>
   </body>
 </html>

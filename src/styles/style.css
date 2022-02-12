@@ -1,0 +1,37 @@
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0 auto;
+  width: 80%;
+}
+
+/* The navigation */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+.nav-logo {
+  width: 60px;
+  height: 18px;
+}
+
+.nav-list {
+  display: flex;
+  padding: 0.5rem 0;
+  margin: 0;
+}
+
+.nav-link:not(:last-child) {
+  margin-right: 1rem;
+}
+
+@media (min-width: 768px) {
+  .nav {
+    flex-direction: row;
+  }
+}
